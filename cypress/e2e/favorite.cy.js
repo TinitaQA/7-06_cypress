@@ -12,6 +12,8 @@ describe("Избранное", () => {
     );
     cy.checkBox();
     cy.addBooks();
+    cy.visit("/favorites");
+    cy.contains("Жук в муравейнике").should("be.visible");
   });
 
   it("Добавить в избранное после добавления книги", () => {
