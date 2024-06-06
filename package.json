@@ -1,0 +1,22 @@
+{
+  "name": "7-06_cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/TinitaQA/7-06_cypress.git"
+  },
+  "author": "Kris Mishchuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TinitaQA/7-06_cypress/issues"
+  },
+  "homepage": "https://github.com/TinitaQA/7-06_cypress#readme",
+  "devDependencies": {
+    "cypress": "^13.11.0"
+  }
+}
