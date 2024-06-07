@@ -7,7 +7,7 @@
     "laptop:chrome:headed": "cypress run --browser chrome --headed --config-file cypress.config.laptop.js",
     "laptop:chrome:headless": "cypress run --browser chrome --headless --config-file cypress.config.laptop.js",
     "mobile:electron:headed": "cypress run --browser electron --headed --config-file cypress.config.laptop.js",
-    "mobile:electron:headless": "cypress run --browser electron --headless --config-file cypress.config.laptop.js",
+    "mobile:electron:headless": "cypress run --browser electron --headless --config-file cypress.config.laptop.js"
   },
   "repository": {
     "type": "git",
